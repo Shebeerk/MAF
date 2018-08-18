@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>Majid Al Futtaim</title>
+<meta name="description" content="Majid Al Futtaim">
+<meta name="robots" content="noindex, follow" />
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+<link rel="stylesheet" media="all" href="css/bootstrap.min.css" />
+<link rel="stylesheet" media="all" href="css/style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+<div class="main-holder">
+  <div id="page">
+    <header id="masthead" class="site-header">
+      <div class="container">
+        <div class="logo"><img src="images/MAF-Logo.png" alt="Majid Al Futtaim" title="Majid Al Futtaim"></div>
+        <div class="search-block">
+          <div id="sb-search" class="sb-search">
+            <form>
+              <input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
+              <input class="sb-search-submit" type="submit" value="">
+              <span class="sb-icon-search"></span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- #masthead -->
+    
+    <div  class="content-wrapper">
+      <div class="container">
+        <div class="login-form-wrapper">
+          <form class="login-form" id="login-form">
+            <div class="title"> Sign In Now <span>Unlock awesome features</span> </div>
+            <span class="field-label"> Username </span>
+            <div class="form-field">
+              <input class="input-item" type="text" name="username" placeholder="Username">
+              <span class="focus-input100"></span> </div>
+            <span class="field-label"> Password </span>
+            <div class="form-field">
+              <input class="input-item" type="password" name="password" placeholder="password">
+              <span class="focus-input100"></span> </div>
+            <div class="options-wraper">
+              <div class="contact-form-checkbox">
+                <label class="chb-container"> Remember me
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+             
+              </div>
+              <div> <a href="#" class="forgot-pwd"> Forgot Password? </a> </div>
+            </div>
+            <div class="container-login-form-btn">
+              <button class="login-form-btn"> SIGN IN </button>
+            </div>
+          </form>
+        </div>
+        
+        <!--End of login area-->
+        
+        <div class="vc_col-sm-12 vc_col-lg-12 vc_col-md-12 products-row">
+          <div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 product-item">
+            <div class="product-img"><img src="images/product-thumb.jpg" alt="Product1" title="Product1"></div>
+            <div class="product-info"> <span class="product-name">iPhone 6 Black</span> <span class="product-prize">AED 1000</span> </div>
+          </div>
+          <!--End of product 1-->
+          
+          <div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 product-item">
+            <div class="product-img"><img src="images/product-thumb.jpg" alt="Product2" title="Product2"></div>
+            <div class="product-info"> <span class="product-name">iPhone 7 Black</span> <span class="product-prize">AED 2000</span> </div>
+          </div>
+          <!--End of product 2-->
+          
+          <div class="col-sm-6 col-md-4 col-lg-4 col-xs-12 product-item">
+            <div class="product-img"><img src="images/product-thumb.jpg" alt="Product3" title="Product3"></div>
+            <div class="product-info"> <span class="product-name">iPhone 8 Black</span> <span class="product-prize">AED 3000</span> </div>
+          </div>
+          <!--End of product 3--> 
+          
+        </div>
+        
+        <!--End of products section--> 
+        
+      </div>
+      
+      <!-- #main-inner --> 
+      
+    </div>
+    
+    <!-- #main -->
+    
+    <footer class="site-footer"> 
+      
+      <!-- .footer --> 
+      
+    </footer>
+    
+ 
+  </div>
+  
+  <!-- #page --> 
+  
+</div>
+
+<!-- .main-holder --> 
+
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script> 
+<script type="text/javascript">
+
+
+    $(window).load(function(){
+      
+$(document).ready(function () {
+
+    $('#login-form').validate({ // initialize the plugin
+        rules: {
+            username: {
+                required: true
+            },
+            password: {
+                required: true,
+            }
+        },
+        submitHandler: function (form) { // for demo
+            alert('You have scccessfully logined'); // for demo
+            return false; // for demo
+        }
+    });
+
+});
+
+    });
+
+</script> 
+<script src="js/classie.js"></script> 
+<script src="js/uisearch.js"></script> 
+<script>
+			new UISearch( document.getElementById( 'sb-search' ) );
+		</script>
+</body>
+</html>
